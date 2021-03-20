@@ -1,7 +1,7 @@
 # This is a comment line
 FROM ubi7/ubi:7.7
 LABEL description="Demo Image"
-MAINTAINER Chandra Prakash <cprakash@qcsdclabs.com>
+MAINTAINER Chandra Prakash <cprakash@qcsdclabs.com> - My Guru
 RUN yum install -y httpd && \
     yum clean all 
 EXPOSE 80 443 
